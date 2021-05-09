@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+* {
+    font-family: "lato", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+
+/* Navbar */
+
+nav {
+    display: block;
+    width: 100%;
+    height: 110px;
+    background-color: black;
+    line-height: 95px;
+    padding: 0px 40px;
+    z-index: 1;
+}
+
+nav .logo {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+nav .logo p {
+    float: left;
+    color: white;
+    font-family: "WaltographRegular";
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav ul {
+    float: left;
+    margin: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0px 12px;
+}
+
+nav .login-btn {
+    height: 50%;
+    float: right;
+}
+
+nav .login-btn span {
+    padding: 10px 10px;
+}
+
+nav .login-btn ul li a {
+    border-radius: 1em;
+    background-color: #ff6f4b;
+    padding: 10px 0;
+    padding-right: 12px;
+}
+
+
+/* landing page */
+
+.intro {
+    height: 70vh;
+    width: 100%;
+    margin: auto;
+    background: url("../images/starwars-banner2.png") no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+.inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content img {
+    width: 20em;
+    margin-bottom: 1em;
+}
+
+.content h1 {
+    color: #fff;
+    text-shadow: 0px 0px 300px #000;
+    font-size: 40px;
+    margin-bottom: 1em;
+}
+
+.content .btn {
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 31px;
+    border-radius: 5em;
+    border: solid #fff 3px;
+    background-color: transparent;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+    width: 12em;
+}
+
+
+/* movie release */
+
+.new-release {
+    color: #fff;
+    background-color: black;
+    padding: 15px 0;
+}
+
+.new-release .content-movie {
+    margin: 14px auto;
+    width: 80%;
+}
+
+.new-release .content-movie img {
+    width: 500px;
+    padding: 0 15px;
+    height: auto;
+}
+
+.new-release .content-movie figcaption {
+    font-size: 16px;
+    padding: 5px 15px;
+}
+
+.btn-white {
+    font-size: 18px;
+    color: black;
+    background-color: #fff;
+    font-weight: bold;
+    width: 170px;
+    padding: 15px 31px;
+    border-radius: 5em;
+    text-align: center;
+}
+
+.covid {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.covid h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#slide-show div {
+    width: 100%;
+}
+
+#slide-show div img {
+    width: 100%;
+    height: 60em;
+}
+
+.starwars-text {
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 20em 9em;
+}
+
+.btn {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    background-color: black;
+    width: 170px;
+    padding: 15px 31px;
+    border-radius: 5em;
+}
+
+.btn-arrow {
+    margin-left: 5px;
+}
+
+.grid-disney {
+    margin: 100px 50px;
+    box-sizing: border-box;
+}
+
+.grid-disney div {
+    padding: 0 5px;
+}
+
+.contact {
+    display: inline-block;
+    text-align: center;
+    padding: 0 140px;
+    margin-bottom: 5em;
+}
+
+.contact input {
+    width: 49%;
+    float: left;
+    padding: 30px 30px;
+    border: 1px solid #b2b2b2;
+    border-radius: 5px;
+}
+
+.contact input:nth-child(even) {
+    margin-right: 20px;
+}
+
+.contact textarea {
+    border: 1px solid #b2b2b2;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.contact button {
+    color: #fff;
+    background-color: #000000;
+    padding: 30px 30px;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    box-sizing: border-box;
+    padding-left: 9em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+footer h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 10px;
+}
+
+footer ul {
+    display: flex;
+    margin: 0;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+.copyright {
+    text-align: center;
+    background-color: #ffffff;
+    color: #666666;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px 10px;
+}
